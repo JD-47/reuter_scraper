@@ -1,4 +1,4 @@
-# reuter_scraper
+# scrapy_web crawler
 for UBUNTU
 (Preferred scrapy over conventional Beautiful Soup given its better speed ).
 
@@ -28,30 +28,6 @@ Running the script :
 1. Open the terminal and go to the project directory.
 2. Then go to the directory containing quotes_spider.py
 3. $ scrapy crawl quotes_spider
-4. Running the script will result in two .xlsx files.
-
-File 1 :
-Industries along  with following information and mapped them back to the
-PermID or Hierarchical ID as in the spreadsheet.
-1.Industry Name
-2.Ticker
-3.Name
-4.Market Capitalization
-5.TTM Sales $
-6.Employees
-7.Hier ID
-8.Perm ID
-
-File 2 :
-For each company listed in the index, information of executives.
-Extracting 1-20 out of 79 each time , avoiding any run time error.
-1. Industry Name
-2. Company Name
-3. Name
-4. Age
-5. Since
-6. Current Position
-7. Description (BIOGRAPHIES)
 
 Errors:
 
